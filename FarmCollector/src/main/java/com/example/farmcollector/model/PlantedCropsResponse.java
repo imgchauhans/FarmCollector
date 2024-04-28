@@ -78,6 +78,17 @@ public class PlantedCropsResponse {
 
 
 
+	public PlantedCropsResponse(String farmName, Double plantedArea, String cropType, Double expectedProduce,
+			String season) {
+		super();
+		this.farmName = farmName;
+		this.plantedArea = plantedArea;
+		this.cropType = cropType;
+		this.expectedProduce = expectedProduce;
+		this.season = season;
+	}
+
+
 	public String getFarmName() {
 		return farmName;
 	}
