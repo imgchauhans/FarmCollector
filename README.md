@@ -10,7 +10,7 @@ The app defines following APIs.
 # POST /farms
  This endpoint creates the entry in H2 DB  to each farm and their crop related data.
    
-First execute this API endpoint to create the Farm data into Spring H@ internal database.
+First execute this API endpoint to create the Farm data into Spring H2 internal database.
    
    Sample Request 1:
     {
