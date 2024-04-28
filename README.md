@@ -65,16 +65,16 @@ Sample response:
 [
     {
         "farmName":"MyFarm2",
-        "plantedArea":400,
+        "plantedArea":400.0,
         "cropType":"potato",
-        "expectedProduce":60,
+        "expectedProduce":60.0,
          "season":"winter",
     },
     {
        "farmName":"MyFarm2",
-    "plantedArea":300,
+    "plantedArea":300.0,
     "cropType":"corn",
-    "expectedProduce":30,
+    "expectedProduce":30.0,
     "season":"summer",
      }
 ]
@@ -93,16 +93,16 @@ Sample response:
 [
     {
         "farmName":"MyFarm2",
-        "plantedArea":400,
+        "plantedArea":400.0,
         "cropType":"potato",
-         "harvestedProduce": 40,
+         "harvestedProduce": 40.0,
          "season":"winter",
     },
     {
        "farmName":"MyFarm2",
-    "plantedArea":300,
+    "plantedArea":300.0,
     "cropType":"corn",
-    "harvestedProduce": 20,
+    "harvestedProduce": 20.0,
     "season":"summer",
      }
 ]
